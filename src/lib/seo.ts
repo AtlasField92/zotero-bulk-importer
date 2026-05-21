@@ -1,5 +1,5 @@
 // Central SEO config — update SITE_URL when the site is published to a custom domain.
-export const SITE_URL = "https://zotero-bulk-importer.lovable.app";
+export const SITE_URL = "https://atlasfield92.github.io/zotero-bulk-importer";
 export const SITE_NAME = "Zotero Bulk Importer";
 export const AUTHOR_NAME = "atlasfieldREPLACE";
 export const GITHUB_URL = "https://github.com/atlasfieldREPLACE/zotero-bulk-import";

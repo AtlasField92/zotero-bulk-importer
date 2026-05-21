@@ -42,7 +42,7 @@ Identical coverage to the Zotero Connector browser extension — every site with
 
 ## Links
 
-- Website: https://zotero-bulk-importer.lovable.app
+- Website: https://atlasfield92.github.io/zotero-bulk-importer
 - Source code: https://github.com/atlasfieldREPLACE/zotero-bulk-import
 - Zotero translators reference: https://www.zotero.org/support/translators
 
