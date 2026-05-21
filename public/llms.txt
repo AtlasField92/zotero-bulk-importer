@@ -1,0 +1,51 @@
+# Zotero Bulk Importer
+
+> Open-source Zotero 7 plugin that imports scientific references in bulk from a plain text file of URLs. Metadata is fetched through Zotero translators — the same engine used by the Zotero Connector browser extension — so any site supported by the Connector is supported here, just in batch.
+
+## What it does
+
+- Reads a `.txt` file containing one URL per line.
+- For each URL, runs the matching Zotero translator to fetch full metadata (title, authors, DOI, abstract, etc.) and saves the item into a chosen Zotero collection.
+- If no translator matches, falls back to saving the page as a web snapshot so no entry is lost.
+- Applies a configurable delay between requests (default: 3 seconds) to avoid overloading publishers' servers.
+- Shows a live progress bar and per-URL log; a Stop button cleanly interrupts an in-progress import.
+
+## Who it's for
+
+Researchers, librarians and students who maintain long reading lists and want to import dozens or hundreds of references into Zotero in one operation, instead of clicking the Zotero Connector for each URL.
+
+## Key facts
+
+- **Name:** Zotero Bulk Importer
+- **Type:** Zotero 7 plugin (XPI add-on)
+- **License:** MIT (open source)
+- **Price:** Free
+- **Platforms:** Windows, macOS, Linux (anywhere Zotero 7 runs)
+- **Privacy:** 100% local. No data is sent to any third-party server; translators run inside Zotero itself.
+
+## Installation
+
+1. Download the packaged `.xpi` file from the Installation section of the website.
+2. Open Zotero 7 → Tools → Add-ons.
+3. Click the gear icon → "Install Add-on From File…" and pick the `.xpi`.
+4. Restart Zotero. A "Bulk import" entry appears in the Tools menu.
+
+## Usage in 3 steps
+
+1. Prepare a `.txt` file with one URL per line (empty lines ignored).
+2. In Zotero, open Tools → Bulk import, pick the target library and collection.
+3. Select the file, optionally adjust the delay, and click Start.
+
+## Supported sites
+
+Identical coverage to the Zotero Connector browser extension — every site with a Zotero translator is supported (academic publishers, preprint servers, news sites, library catalogs, etc.).
+
+## Links
+
+- Website: https://zotero-bulk-importer.lovable.app
+- Source code: https://github.com/atlasfieldREPLACE/zotero-bulk-import
+- Zotero translators reference: https://www.zotero.org/support/translators
+
+## Author
+
+Built by atlasfieldREPLACE. Support the project: https://buymeacoffee.com/atlasfieldREPLACE

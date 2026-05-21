@@ -1,0 +1,12 @@
+{
+  "name": "Zotero Bulk Importer",
+  "short_name": "Zotero Bulk",
+  "description": "Open-source Zotero 7 plugin to bulk import scientific references from a list of URLs.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "icons": [
+    { "src": "/favicon.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

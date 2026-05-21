@@ -1,0 +1,127 @@
+{
+  "nav": {
+    "features": "Features",
+    "howItWorks": "How it works",
+    "install": "Install",
+    "faq": "FAQ",
+    "download": "Download .xpi",
+    "support": "Support me"
+  },
+  "hero": {
+    "badge": "Zotero plugin",
+    "title": "Bulk import scientific references from a list of URLs",
+    "subtitle": "Feed Zotero a plain text file of URLs. Metadata is fetched through Zotero translators — exactly like the browser extension, just in bulk.",
+    "ctaPrimary": "Get the plugin",
+    "ctaSecondary": "View on GitHub",
+    "imageAlt": "Stack of glowing documents flowing into a Zotero library"
+  },
+  "features": {
+    "title": "Everything you need for batch imports",
+    "subtitle": "Built for researchers handling long reading lists.",
+    "items": {
+      "collection": {
+        "title": "Target collection",
+        "desc": "Hierarchical dropdown of every library, collection and sub-collection."
+      },
+      "local": {
+        "title": "100% local",
+        "desc": "Everything runs inside your Zotero. No data leaves your machine, no third-party server."
+      },
+      "delay": {
+        "title": "Configurable delay",
+        "desc": "Adjust the wait time between requests (default: 3s) to stay polite."
+      },
+      "progress": {
+        "title": "Live progress & log",
+        "desc": "Real-time progress bar and a journal of every URL processed."
+      },
+      "pdf": {
+        "title": "PDF auto-attach",
+        "desc": "When a translator provides one, the PDF is downloaded and attached to the reference automatically."
+      },
+      "fallback": {
+        "title": "Smart fallback",
+        "desc": "If no Zotero translator matches, the page is saved as a web snapshot."
+      }
+    }
+  },
+  "how": {
+    "title": "How it works",
+    "subtitle": "Three steps from a list of links to a tidy collection.",
+    "steps": {
+      "one": {
+        "title": "Prepare a .txt",
+        "desc": "One URL per line. Empty lines are ignored."
+      },
+      "two": {
+        "title": "Pick a collection",
+        "desc": "Select a target library and collection in Zotero."
+      },
+      "three": {
+        "title": "Launch the import",
+        "desc": "Watch the progress bar — stop or resume any time."
+      }
+    }
+  },
+  "format": {
+    "title": "Input format",
+    "subtitle": "A plain text file. One URL per line. That's it."
+  },
+  "install": {
+    "title": "Installation",
+    "subtitle": "Two paths: install the packaged plugin, or load it in dev mode.",
+    "tabs": {
+      "xpi": "Install .xpi",
+      "dev": "Development mode"
+    },
+    "xpi": {
+      "step1": "Download the latest <1>bulk-importer.xpi</1>",
+      "step2": "Open Zotero, then Tools → Add-ons",
+      "step3": "Click the gear icon, choose \"Install Add-on From File…\"",
+      "step4": "Select bulk-importer.xpi and restart Zotero"
+    },
+    "dev": {
+      "step1": "Quit Zotero",
+      "step2": "In your Zotero profile directory, open the extensions/ folder",
+      "step3": "Create a file named bulk-import@atlasfieldREPLACE (no extension) containing the absolute path to this repo",
+      "step4": "Remove extensions.lastAppBuildId and extensions.lastAppVersion from prefs.js, then relaunch Zotero"
+    }
+  },
+  "compat": {
+    "title": "Compatibility",
+    "subtitle": "Designed for the modern Zotero stack.",
+    "version": "Zotero version",
+    "supported": "Supported",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "items": {
+      "q1": {
+        "q": "Which sites are supported?",
+        "a": "The supported sites are exactly the same as those you can save with the Zotero Connector browser extension."
+      },
+      "q2": {
+        "q": "What if no translator matches a URL?",
+        "a": "The plugin falls back to saving the page as a web snapshot, so you never lose an entry."
+      },
+      "q3": {
+        "q": "Will I get rate-limited?",
+        "a": "To avoid overloading the publishers' servers, a configurable delay is applied between each request (default: 3 seconds)."
+      },
+      "q5": {
+        "q": "Is my data sent anywhere?",
+        "a": "No. Everything runs locally in your Zotero instance using the standard translators."
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Bulk import, free and open-source",
+    "links": "Links",
+    "github": "GitHub",
+    "license": "License",
+    "language": "Language",
+    "rights": "Released under the PolyForm Noncommercial License."
+  }
+}

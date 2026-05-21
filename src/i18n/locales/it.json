@@ -1,0 +1,127 @@
+{
+  "nav": {
+    "features": "Funzionalità",
+    "howItWorks": "Come funziona",
+    "install": "Installa",
+    "faq": "FAQ",
+    "download": "Scarica .xpi",
+    "support": "Supportami"
+  },
+  "hero": {
+    "badge": "Plugin per Zotero",
+    "title": "Importa in massa riferimenti scientifici da un elenco di URL",
+    "subtitle": "Dai a Zotero un file di testo con URL. I metadati vengono recuperati tramite i translator di Zotero — proprio come l'estensione del browser, ma in lotto.",
+    "ctaPrimary": "Ottieni il plugin",
+    "ctaSecondary": "Vedi su GitHub",
+    "imageAlt": "Pila di documenti luminosi che fluiscono in una libreria Zotero"
+  },
+  "features": {
+    "title": "Tutto ciò che serve per gli import in lotto",
+    "subtitle": "Pensato per ricercatori con lunghe liste di lettura.",
+    "items": {
+      "collection": {
+        "title": "Collezione di destinazione",
+        "desc": "Menù gerarchico di tutte le librerie, collezioni e sottocollezioni."
+      },
+      "local": {
+        "title": "100% locale",
+        "desc": "Tutto gira nel tuo Zotero. Nessun dato lascia la tua macchina, nessun server di terze parti."
+      },
+      "delay": {
+        "title": "Ritardo configurabile",
+        "desc": "Regola il tempo di attesa tra le richieste (predefinito: 3 s)."
+      },
+      "progress": {
+        "title": "Avanzamento in diretta",
+        "desc": "Barra di avanzamento in tempo reale e registro di ogni URL."
+      },
+      "pdf": {
+        "title": "PDF allegato auto.",
+        "desc": "Quando il translator lo fornisce, il PDF viene scaricato e allegato automaticamente al riferimento."
+      },
+      "fallback": {
+        "title": "Fallback intelligente",
+        "desc": "Se nessun translator corrisponde, la pagina viene salvata come snapshot web."
+      }
+    }
+  },
+  "how": {
+    "title": "Come funziona",
+    "subtitle": "Tre passaggi: da un elenco di link a una collezione ordinata.",
+    "steps": {
+      "one": {
+        "title": "Prepara un .txt",
+        "desc": "Un URL per riga. Le righe vuote vengono ignorate."
+      },
+      "two": {
+        "title": "Scegli una collezione",
+        "desc": "Seleziona la libreria e la collezione di destinazione in Zotero."
+      },
+      "three": {
+        "title": "Avvia l'import",
+        "desc": "Osserva la barra di avanzamento — puoi fermarla o riprenderla in qualsiasi momento."
+      }
+    }
+  },
+  "format": {
+    "title": "Formato di input",
+    "subtitle": "Un file di testo semplice. Un URL per riga. Tutto qui."
+  },
+  "install": {
+    "title": "Installazione",
+    "subtitle": "Due strade: installare il plugin pacchettizzato o caricarlo in modalità sviluppo.",
+    "tabs": {
+      "xpi": "Installa .xpi",
+      "dev": "Modalità sviluppo"
+    },
+    "xpi": {
+      "step1": "Scarica l'ultima versione di <1>bulk-importer.xpi</1>",
+      "step2": "Apri Zotero, poi Strumenti → Componenti aggiuntivi",
+      "step3": "Clicca sull'icona dell'ingranaggio e scegli «Installa componente aggiuntivo da file…»",
+      "step4": "Seleziona bulk-importer.xpi e riavvia Zotero"
+    },
+    "dev": {
+      "step1": "Chiudi Zotero",
+      "step2": "Nella cartella del profilo di Zotero, apri extensions/",
+      "step3": "Crea un file chiamato bulk-import@atlasfieldREPLACE (senza estensione) con il percorso assoluto a questo repository",
+      "step4": "Rimuovi extensions.lastAppBuildId e extensions.lastAppVersion da prefs.js, poi riavvia Zotero"
+    }
+  },
+  "compat": {
+    "title": "Compatibilità",
+    "subtitle": "Progettato per lo stack moderno di Zotero.",
+    "version": "Versione di Zotero",
+    "supported": "Supportato",
+    "yes": "Sì",
+    "no": "No"
+  },
+  "faq": {
+    "title": "Domande frequenti",
+    "items": {
+      "q1": {
+        "q": "Quali siti sono supportati?",
+        "a": "I siti supportati sono esattamente gli stessi che puoi salvare con l'estensione Zotero Connector per browser."
+      },
+      "q2": {
+        "q": "Cosa succede se nessun translator corrisponde a un URL?",
+        "a": "Il plugin ricade sul salvataggio della pagina come snapshot web, così non perdi mai una voce."
+      },
+      "q3": {
+        "q": "Rischio limiti di velocità?",
+        "a": "Per non sovraccaricare i server degli editori, viene applicato un ritardo configurabile tra le richieste (predefinito: 3 secondi)."
+      },
+      "q5": {
+        "q": "I miei dati vengono inviati da qualche parte?",
+        "a": "No. Tutto viene eseguito localmente nella tua istanza di Zotero usando i translator standard."
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Import in massa, gratuito e open source",
+    "links": "Link",
+    "github": "GitHub",
+    "license": "Licenza",
+    "language": "Lingua",
+    "rights": "Rilasciato sotto licenza PolyForm Noncommercial."
+  }
+}

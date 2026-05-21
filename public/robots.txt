@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zotero-bulk-importer.lovable.app/sitemap.xml

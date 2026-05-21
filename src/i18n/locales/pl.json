@@ -1,0 +1,127 @@
+{
+  "nav": {
+    "features": "Funkcje",
+    "howItWorks": "Jak to działa",
+    "install": "Instalacja",
+    "faq": "FAQ",
+    "download": "Pobierz .xpi",
+    "support": "Wesprzyj mnie"
+  },
+  "hero": {
+    "badge": "Wtyczka Zotero",
+    "title": "Importuj zbiorczo referencje naukowe z listy adresów URL",
+    "subtitle": "Podaj Zotero zwykły plik tekstowy z adresami URL. Metadane są pobierane przez translatory Zotero — tak jak rozszerzenie przeglądarki, ale zbiorczo.",
+    "ctaPrimary": "Pobierz wtyczkę",
+    "ctaSecondary": "Zobacz na GitHubie",
+    "imageAlt": "Stos świetlistych dokumentów wpływających do biblioteki Zotero"
+  },
+  "features": {
+    "title": "Wszystko, czego potrzebujesz do importu zbiorczego",
+    "subtitle": "Stworzone dla badaczy z długimi listami lektur.",
+    "items": {
+      "collection": {
+        "title": "Kolekcja docelowa",
+        "desc": "Hierarchiczna lista wszystkich bibliotek, kolekcji i podkolekcji."
+      },
+      "local": {
+        "title": "100% lokalnie",
+        "desc": "Wszystko działa wewnątrz Twojego Zotero. Żadne dane nie opuszczają Twojego komputera, brak serwerów stron trzecich."
+      },
+      "delay": {
+        "title": "Konfigurowalne opóźnienie",
+        "desc": "Dostosuj czas oczekiwania między żądaniami (domyślnie: 3 s)."
+      },
+      "progress": {
+        "title": "Postęp na żywo i log",
+        "desc": "Pasek postępu w czasie rzeczywistym i dziennik każdego przetworzonego URL."
+      },
+      "pdf": {
+        "title": "Automatyczne dołączanie PDF",
+        "desc": "Gdy translator je udostępnia, plik PDF jest pobierany i automatycznie dołączany do referencji."
+      },
+      "fallback": {
+        "title": "Inteligentny fallback",
+        "desc": "Jeśli żaden translator nie pasuje, strona jest zapisywana jako migawka WWW."
+      }
+    }
+  },
+  "how": {
+    "title": "Jak to działa",
+    "subtitle": "Trzy kroki od listy linków do uporządkowanej kolekcji.",
+    "steps": {
+      "one": {
+        "title": "Przygotuj plik .txt",
+        "desc": "Jeden URL w wierszu. Puste linie są ignorowane."
+      },
+      "two": {
+        "title": "Wybierz kolekcję",
+        "desc": "Wybierz docelową bibliotekę i kolekcję w Zotero."
+      },
+      "three": {
+        "title": "Uruchom import",
+        "desc": "Obserwuj pasek postępu — w każdej chwili możesz zatrzymać lub wznowić."
+      }
+    }
+  },
+  "format": {
+    "title": "Format wejściowy",
+    "subtitle": "Zwykły plik tekstowy. Jeden URL w wierszu. To wszystko."
+  },
+  "install": {
+    "title": "Instalacja",
+    "subtitle": "Dwie ścieżki: zainstalować zapakowaną wtyczkę lub załadować ją w trybie deweloperskim.",
+    "tabs": {
+      "xpi": "Zainstaluj .xpi",
+      "dev": "Tryb deweloperski"
+    },
+    "xpi": {
+      "step1": "Pobierz najnowszą wersję <1>bulk-importer.xpi</1>",
+      "step2": "Otwórz Zotero, następnie Narzędzia → Dodatki",
+      "step3": "Kliknij ikonę koła zębatego i wybierz „Zainstaluj dodatek z pliku…”",
+      "step4": "Wybierz bulk-importer.xpi i zrestartuj Zotero"
+    },
+    "dev": {
+      "step1": "Zamknij Zotero",
+      "step2": "W katalogu profilu Zotero otwórz folder extensions/",
+      "step3": "Utwórz plik o nazwie bulk-import@atlasfieldREPLACE (bez rozszerzenia) zawierający bezwzględną ścieżkę do tego repozytorium",
+      "step4": "Usuń extensions.lastAppBuildId i extensions.lastAppVersion z prefs.js, a następnie uruchom ponownie Zotero"
+    }
+  },
+  "compat": {
+    "title": "Zgodność",
+    "subtitle": "Zaprojektowane dla nowoczesnego stosu Zotero.",
+    "version": "Wersja Zotero",
+    "supported": "Obsługiwana",
+    "yes": "Tak",
+    "no": "Nie"
+  },
+  "faq": {
+    "title": "Najczęściej zadawane pytania",
+    "items": {
+      "q1": {
+        "q": "Które strony są obsługiwane?",
+        "a": "Obsługiwane strony to dokładnie te same, które możesz zapisać za pomocą rozszerzenia przeglądarki Zotero Connector."
+      },
+      "q2": {
+        "q": "Co jeśli żaden translator nie pasuje do URL?",
+        "a": "Wtyczka zapisze stronę jako migawkę WWW, więc nigdy nie stracisz wpisu."
+      },
+      "q3": {
+        "q": "Czy zostanę ograniczony przez rate limit?",
+        "a": "Aby nie obciążać serwerów wydawców, między każdym żądaniem stosowane jest konfigurowalne opóźnienie (domyślnie: 3 sekundy)."
+      },
+      "q5": {
+        "q": "Czy moje dane są gdzieś wysyłane?",
+        "a": "Nie. Wszystko działa lokalnie w Twojej instancji Zotero, używając standardowych translatorów."
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Import zbiorczy, darmowy i open source",
+    "links": "Linki",
+    "github": "GitHub",
+    "license": "Licencja",
+    "language": "Język",
+    "rights": "Wydane na licencji PolyForm Noncommercial."
+  }
+}
