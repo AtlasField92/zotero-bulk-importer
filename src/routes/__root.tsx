@@ -79,7 +79,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         rel: "stylesheet",
         href: appCss,
       },
-      { rel: "icon", type: "image/png", href: "/favicon.png" },
+      { rel: "icon", type: "image/png", href: "https://atlasfield92.github.io/zotero-bulk-importer/favicon.png" },
     ],
   }),
   shellComponent: RootShell,

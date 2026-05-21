@@ -6,7 +6,7 @@ export function Footer() {
     <footer className="bg-primary text-primary-foreground">
       <div className="mx-auto flex max-w-6xl flex-col items-center gap-3 px-4 py-6 text-sm sm:px-6 md:grid md:grid-cols-3 md:gap-6">
         <div className="flex items-center gap-3 md:justify-self-start">
-          <img src="/favicon.png" alt="Zotero Bulk Importer" className="size-9 rounded-md" />
+          <img src="https://atlasfield92.github.io/zotero-bulk-importer/favicon.png" alt="Zotero Bulk Importer" className="size-9 rounded-md" />
           <div className="flex flex-col leading-tight">
             <span className="font-display font-semibold">Zotero Bulk Importer</span>
             <span className="text-xs text-primary-foreground/70">{t("footer.tagline")}</span>

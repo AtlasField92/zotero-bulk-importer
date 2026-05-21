@@ -71,7 +71,7 @@ export const Route = createFileRoute("/")({
         { rel: "alternate", hrefLang: "x-default", href: SITE_URL },
         //Uncomment to enable PWA
         // { rel: "manifest", href: "/manifest.webmanifest" },
-        { rel: "apple-touch-icon", href: "/favicon.png" },
+        { rel: "apple-touch-icon", href: "https://atlasfield92.github.io/zotero-bulk-importer/favicon.png" },
       ],
       scripts: [
         {
