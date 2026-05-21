@@ -8,7 +8,12 @@ import tsconfigPaths from "vite-tsconfig-paths";
 import tailwindcss from "@tailwindcss/vite";
 import react from "@vitejs/plugin-react";
 
+// Set VITE_BASE_PATH env var at build time to deploy under a subpath.
+// Example: VITE_BASE_PATH=/zotero-bulk-importer/ npm run build
+const base = process.env.VITE_BASE_PATH ?? "/";
+
 export default defineConfig({
+  base,
   plugins: [
     tsconfigPaths(),
     tailwindcss(),

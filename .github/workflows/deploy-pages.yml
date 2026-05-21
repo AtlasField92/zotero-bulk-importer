@@ -28,8 +28,12 @@ jobs:
 
       - name: Build static site with Docker
         run: |
-          # Build the "builder" stage of the Dockerfile
-          docker build --target builder -t static-builder -f Dockerfile.static .
+          # Build the "builder" stage of the Dockerfile, passing the subpath as a build arg. Default is /. Added for Github pages deploy
+          docker build \
+            --target builder \
+            --build-arg VITE_BASE_PATH=/zotero-bulk-importer/ \
+            -t static-builder \
+            -f Dockerfile.static .
           
           # Create a temporary container to extract the files
           docker create --name extractor static-builder

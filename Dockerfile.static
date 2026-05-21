@@ -19,6 +19,11 @@ RUN npm install
 # 3. Copy source code
 COPY . .
 
+# Subpath prefix for GitHub Pages (e.g. /zotero-bulk-importer/)
+# Pass at build time: docker build --build-arg VITE_BASE_PATH=/zotero-bulk-importer/ ...
+ARG VITE_BASE_PATH=/
+ENV VITE_BASE_PATH=${VITE_BASE_PATH}
+
 # 4. Build in static mode (prerender SPA)
 #    Uses the dedicated vite.config.static.ts config which directly uses
 #    the @tanstack/react-start/plugin/vite plugin (avoids a mismatch
