@@ -20,9 +20,9 @@ import {
 } from "@/lib/seo";
 
 const TITLE =
-  "Zotero Bulk Importer — Batch import scientific references into Zotero 7";
+  "Zotero Bulk Importer — Batch import scientific references into Zotero";
 const DESCRIPTION =
-  "Open-source Zotero 7 plugin to bulk import scientific references from a list of URLs. Uses the same translators as the Zotero Connector browser extension, with a configurable delay between requests.";
+  "Open-source Zotero plugin to bulk import scientific references from a list of URLs. Uses the same translators as the Zotero Connector browser extension, with a configurable delay between requests.";
 
 export const Route = createFileRoute("/")({
   head: () => {
@@ -42,7 +42,7 @@ export const Route = createFileRoute("/")({
         {
           name: "keywords",
           content:
-            "Zotero, Zotero 7, bulk import, batch import, references, bibliography, research, plugin, translators, Zotero Connector",
+            "Zotero, bulk import, batch import, references, bibliography, research, plugin, translators, Zotero Connector",
         },
         { name: "author", content: "atlasfieldREPLACE" },
         { name: "robots", content: "index, follow, max-image-preview:large" },
@@ -85,7 +85,7 @@ export const Route = createFileRoute("/")({
         {
           type: "application/ld+json",
           children: JSON.stringify(
-            howToJsonLd("How to bulk import references into Zotero 7", howToSteps),
+            howToJsonLd("How to bulk import references into Zotero", howToSteps),
           ),
         },
       ],

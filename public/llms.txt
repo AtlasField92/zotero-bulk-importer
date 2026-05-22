@@ -1,6 +1,6 @@
 # Zotero Bulk Importer
 
-> Open-source Zotero 7 plugin that imports scientific references in bulk from a plain text file of URLs. Metadata is fetched through Zotero translators — the same engine used by the Zotero Connector browser extension — so any site supported by the Connector is supported here, just in batch.
+> Open-source Zotero plugin that imports scientific references in bulk from a plain text file of URLs. Metadata is fetched through Zotero translators — the same engine used by the Zotero Connector browser extension — so any site supported by the Connector is supported here, just in batch.
 
 ## What it does
 
@@ -17,16 +17,16 @@ Researchers, librarians and students who maintain long reading lists and want to
 ## Key facts
 
 - **Name:** Zotero Bulk Importer
-- **Type:** Zotero 7 plugin (XPI add-on)
+- **Type:** Zotero plugin (XPI add-on)
 - **License:** MIT (open source)
 - **Price:** Free
-- **Platforms:** Windows, macOS, Linux (anywhere Zotero 7 runs)
+- **Platforms:** Windows, macOS, Linux (anywhere Zotero runs)
 - **Privacy:** 100% local. No data is sent to any third-party server; translators run inside Zotero itself.
 
 ## Installation
 
 1. Download the packaged `.xpi` file from the Installation section of the website.
-2. Open Zotero 7 → Tools → Add-ons.
+2. Open Zotero → Tools → Add-ons.
 3. Click the gear icon → "Install Add-on From File…" and pick the `.xpi`.
 4. Restart Zotero. A "Bulk import" entry appears in the Tools menu.
 

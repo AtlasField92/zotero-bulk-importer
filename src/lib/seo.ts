@@ -16,17 +16,17 @@ export function softwareApplicationJsonLd() {
     applicationSubCategory: "Reference manager plugin",
     operatingSystem: "Windows, macOS, Linux",
     description:
-      "Open-source Zotero 7 plugin to bulk import scientific references from a plain text list of URLs, using the same Zotero translators as the browser Zotero Connector extension.",
+      "Open-source Zotero plugin to bulk import scientific references from a plain text list of URLs, using the same Zotero translators as the browser Zotero Connector extension.",
     url: SITE_URL,
     image: `${SITE_URL}/favicon.png`,
     license: "https://opensource.org/licenses/MIT",
     isAccessibleForFree: true,
-    softwareRequirements: "Zotero 7",
+    softwareRequirements: "Zotero",
     offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
     author: { "@type": "Person", name: AUTHOR_NAME },
     codeRepository: GITHUB_URL,
     keywords:
-      "Zotero, bulk import, batch import, references, bibliography, research, plugin, Zotero 7, translators",
+      "Zotero, bulk import, batch import, references, bibliography, research, plugin, Zotero, translators",
   };
 }
 
